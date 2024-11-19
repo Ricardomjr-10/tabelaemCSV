@@ -1,0 +1,12 @@
+.titulo{
+    text-align: center;
+    font-size: 2.5em;
+}
+.cabecalho{
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+.linha-par{
+    background-color: #ddd;
+}
