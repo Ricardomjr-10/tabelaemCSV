@@ -7,7 +7,9 @@ button.addEventListener('click', () => {
     rows.forEach(row => {
         linhas += row.innerText + '\n';
     })
-    button.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(linhas));
+    button.setAttribute('href', 'data:text/csv;charset=utf-8,' + encodeURIComponent(linhas));
     button.setAttribute('download', 'tabela.csv');
+  
  
-});
+})
+
